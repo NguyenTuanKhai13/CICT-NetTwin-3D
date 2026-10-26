@@ -1,0 +1,1641 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 64088)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 62552)
+VBCSCompiler prewarm took 42.07 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER" at "2026-10-26T13:39:16.2145213Z"
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-26T13:39:16Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4420, path: "E:/UNITY/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              d7508a39fb8e4233a50c55875124bc95
+  Correlation Id:          d2efd1a2aba385c0c85f39b9676c9060
+  External correlation Id: 6780931637274383597
+  Machine Id:              rRzFtIhDwl4z6pcIDC+mwjvL6AE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ACER" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER-notifications" at "2026-10-26T13:39:16.3355332Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 1u4337S3Cm...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968518398191-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.14s
+
+COMMAND LINE ARGUMENTS:
+E:\UNITY\6000.6.7f1\Editor\Unity.exe
+-projectpath
+E:\UNITY\PROJECT\CICT-NetTwin 3D
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-ACER
+-hubSessionId
+18deb74c-85dd-4e82-9f90-4c3a6ab16b43
+-accessToken
+1u4337S3CmhfRO9nm3bh5cUkGPghl7X77a2nwlvnm08011f
+Successfully changed project path to: E:\UNITY\PROJECT\CICT-NetTwin 3D
+E:/UNITY/PROJECT/CICT-NetTwin 3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [37940]  Target information:
+
+Player connection [37940]  * "[IP] 10.10.9.208 [Port] 55504 [Flags] 2 [Guid] 3841819568 [EditorId] 3841819568 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NP720R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-62076" after 0.7 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 973cf7e0e1097aee88762c3d8996d722
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - E:/UNITY/6000.6.7f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = E:/UNITY/PROJECT/CICT-NetTwin 3DUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path E:/UNITY/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/PROJECT/CICT-NetTwin 3D/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4050 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.2101
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5920 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5920 MB
+    App VRAM Budget: 5152 MB
+    Driver:          32.0.16.2101
+Initialize mono
+Mono path[0] = 'E:/UNITY/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UNITY/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'E:/UNITY/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UNITY/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UNITY/6000.6.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UNITY/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002002 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.462 seconds
+Domain Reload Profiling: 2506ms
+	BeginReloadAssembly (239ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (218ms)
+		TypeCache.Refresh (417ms)
+			TypeCache.ScanAssembly (389ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1465ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (506ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 56 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.28 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.ide.visualstudio@b5edea5f33f4)
+    com.unity.inputsystem@1.20.1 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.searcher@4.9.5 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.render-pipelines.universal@ffe395a3a1d1)
+    com.unity.ugui@2.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.ugui@eb824e41fbc7)
+    com.unity.modules.accessibility@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.render-pipelines.core@13460d8ea9e5)
+    com.unity.shadergraph@17.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.shadergraph@8b7e693cdbfe)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.test-framework@ee3fe9477490)
+    com.unity.graph-authoring@1.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.collections@4920e8897b5a)
+    com.unity.ext.nunit@2.1.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.test-framework.performance@6.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+Starting: E:\UNITY\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/UNITY/PROJECT/CICT-NetTwin 3D
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "E:\UNITY\6000.6.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "E:\UNITY\6000.6.7f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "E:\UNITY\6000.6.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "E:\UNITY\6000.6.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s434ms
+[632/801    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.36 seconds), 1 items updated, 801 evaluated
+AssetDatabase: script compilation time: 1.385230s
+Total cache size 49444620
+Begin MonoManager ReloadAssembly
+Total cache size after purge 49444620, took 00:00:00.1356121
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.101 seconds
+Domain Reload Profiling: 3962ms
+	BeginReloadAssembly (531ms)
+		DisableScriptedObjects (55ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (1150ms)
+		LoadAssemblies (656ms)
+		TypeCache.Refresh (318ms)
+			TypeCache.ScanAssembly (295ms)
+		AnalyzeDomain (135ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2103ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (340ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Starting new worker id: 0 with log in E:/UNITY/PROJECT/CICT-NetTwin 3D/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=96f0ea84776b0084e9be3edc8faee9fa): Total: 6.386 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2837 ms
+		Asset DB Callback time: managed=93 ms, native=57 ms
+		Scripting: domain reloads=1, domain reload time=1924 ms, compile time=1390 ms, other=82 ms
+		Project Asset Count: scripts=1086, non-scripts=2122
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 60.430ms
+	ApplyChangesToAssetFolders: 1.092ms
+	Scan: 95.648ms
+	Collect global state as custom dependencies: 41.783ms
+	CategorizeScriptCompilationAssets: 48.316ms
+	ProcessAssetsWithTransientArtifactChanges: 99.488ms
+	CategorizeAssets: 106.673ms
+	CompileScripts: 1390.152ms
+	ImportOutOfDateAssets: 2136.452ms (2111.712ms without children)
+		ReloadNativeAssets: 0.062ms
+		UnloadImportedAssets: 3.846ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.139ms
+		ImportSchedulerStart: 19.685ms
+	PostProcessAllAssets: 93.684ms
+		MonoPostProcessAllAssets: 93.548ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 46.470ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 6.529ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.806ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.299ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.489ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.291ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.042ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.727ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.690ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.578ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.424ms
+			SyncVS.PostprocessSyncProject 0.350ms
+	UnloadStreamsBegin: 2.725ms
+	PersistCurrentRevisions: 0.158ms
+	GenerateScriptTypeHashes: 3.910ms
+	GenerateScriptTypeSerializationHashes: 7.780ms
+	Untracked: 2242.210ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 9.539ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CICT-NetTwin 3D
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/CICT_NetTwin_Final.unity'
+	Deserialize:            4.644 ms
+	Integration:            22.204 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.042 ms
+	Total Operation Time:   26.892 ms
+Unloading 4673 unused Assets / (11.4 MB). Loaded Objects now: 5633.
+Memory consumption went from 390.4 MB to 379.0 MB.
+Total: 22.916000 ms (FindLiveObjects: 0.786700 ms CreateObjectMapping: 0.292000 ms MarkObjects: 14.728100 ms  DeleteObjects: 6.704500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Curl error 35: Recv failure: Connection was reset
+[LAYOUT] About to save layout E:\UNITY\PROJECT\CICT-NetTwin 3D\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ACER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 17.239 seconds
+	Project init time: 				13.701 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.736 seconds
+		Asset Database init time: 		0.649 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			2.567 seconds
+		Unity extensions init time: 	0.052 seconds
+		Asset Database refresh time: 	6.387 seconds
+	Scene opening time: 			2.895 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793021973392,"processId":62076,"projectLoad":17.2393708,"projectInit":13.7008215,"templateInit":0.0,"packageManagerInit":0.7360304,"assetDatabaseInit":0.6493076,"globalIlluminationInit":0.0041181,"assembliesLoad":2.5673372,"unityExtensionsInit":0.0517262,"assetDatabaseRefresh":6.3865896,"sceneOpening":2.8946175}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793021973393,"processId":62076,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=9793ed6bf9c70754bb73a85d21005a64): Total: 0.153 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/ACER/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.041s, timestamps: [17.456 - 17.497]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "1u4337S3"... (expires: 2026-10-26T15:07:34Z)
+UPID Received '6deb60aa-40b1-4e22-953a-17db6fcbde8b'.
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.010 ms
+	Integration:            94.638 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   95.678 ms
+The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u21BB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2196 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u229E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u260D was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2750 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2332 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2601 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2699 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u25A2 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Adaptive Performance] Restoring dynamic resolution scale factor to 1.0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+UnityEngine.AdaptivePerformance.APLog:Debug (string,object[])
+UnityEngine.AdaptivePerformance.AdaptiveResolution:OnDestroy ()
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.857 ms
+	Integration:            43.443 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   44.330 ms
+Unloading 78 unused Assets / (17.3 MB). Loaded Objects now: 6711.
+Memory consumption went from 0.62 GB to 0.60 GB.
+Total: 37.623800 ms (FindLiveObjects: 0.789800 ms CreateObjectMapping: 0.182200 ms MarkObjects: 30.013200 ms  DeleteObjects: 6.302800 ms)
+
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.401 ms
+	Integration:            29.351 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   29.776 ms
+The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u21BB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2196 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u229E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u260D was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2750 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2332 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2601 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2699 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u25A2 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.424 ms
+	Integration:            42.473 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   42.933 ms
+Unloading 21 unused Assets / (317.5 KB). Loaded Objects now: 6714.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 27.825600 ms (FindLiveObjects: 0.737000 ms CreateObjectMapping: 0.161200 ms MarkObjects: 26.079400 ms  DeleteObjects: 0.526600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.383 ms
+	Integration:            30.077 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   30.483 ms
+The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u21BB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2196 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u229E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u260D was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2750 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2332 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2601 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2699 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u25A2 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.374 ms
+	Integration:            34.633 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   35.020 ms
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6715.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 27.655100 ms (FindLiveObjects: 0.628600 ms CreateObjectMapping: 0.139000 ms MarkObjects: 26.372500 ms  DeleteObjects: 0.192000 ms)
+
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.450 ms
+	Integration:            39.310 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   39.792 ms
+Asset Pipeline Refresh (id=fc01be94d17ddd34093998d0bf12b4f8): Total: 0.030 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\devenv.exe)! Please select a different application.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.DefaultExternalCodeEditor:OpenProject (string,int,int)
+Unity.CodeEditor.CodeEditor:OnOpenAsset (UnityEngine.EntityId,int,int)
+
+External Code Editor application path does not exist (C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\devenv.exe)! Please select a different application.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.DefaultExternalCodeEditor:OpenProject (string,int,int)
+Unity.CodeEditor.CodeEditor:OpenProject (string,int,int)
+
+EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=a770b7902c953f349a108fc9c74eeff8): Total: 0.153 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+Starting: E:\UNITY\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/UNITY/PROJECT/CICT-NetTwin 3D
+Starting new worker id: 1 with log in E:/UNITY/PROJECT/CICT-NetTwin 3D/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 198d58a092a758248ba67c413e090f2a - Path: Assets/Scripts/CICTNetTwinMaster.cs - Importer: PreviewImporter -> (ImportResultId: '8340ed6422c37a76f51fc05da0a06984') in 0.0479514 seconds
+Worker ready: AssetImportWorkerHW1 1
+ExitCode: 0 Duration: 6s203ms
+[630/801    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[793/801    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\CICTNetTwinMaster.cs(555,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[795/801    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 150 defines and 335 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[796/801    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 148 defines and 355 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[798/801    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[800/801    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (6.02 seconds), 6 items updated, 801 evaluated
+Assets\Scripts\CICTNetTwinMaster.cs(555,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Total cache size 49444620
+Total cache size after purge 49444620, took 00:00:00.1330489
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.676 seconds
+Domain Reload Profiling: 6841ms
+	BeginReloadAssembly (1174ms)
+		DisableScriptedObjects (345ms)
+		CreateAndSetChildDomain (384ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (823ms)
+		LoadAssemblies (271ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (354ms)
+			BuildScriptInfoCaches (338ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4679ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (430ms)
+			ProcessInitializeOnLoadAttributes (755ms)
+			ProcessInitializeOnLoadMethodAttributes (274ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1422ms)
+
+Asset Pipeline Refresh (id=89d50e7cc2f94b24a97aa2e4c15c08a7): Total: 7.248 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4907 ms
+		Asset DB Callback time: managed=70 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=2265 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=1086, non-scripts=2122
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.816ms
+	ApplyChangesToAssetFolders: 0.503ms
+	Collect global state as custom dependencies: 6.262ms
+	ProcessAssetsWithTransientArtifactChanges: 5.058ms
+	CategorizeAssets: 99.411ms
+	CompileScripts: 3.473ms
+	ImportOutOfDateAssets: 4697.040ms (4684.455ms without children)
+		CollectScriptTypesHashes: 5.002ms
+		ReloadNativeAssets: 2.669ms
+		UnloadImportedAssets: 8.223ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.099ms
+		ImportSchedulerStart: 0.565ms
+	PostProcessAllAssets: 70.808ms
+		MonoPostProcessAllAssets: 70.801ms
+			AssetPostprocessor.OnPostprocessAllAssets 50.577ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 36.356ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.076ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.019ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.349ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.142ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.636ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.568ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.499ms
+			AssetChangedListener.OnPostprocessAllAssets 1.480ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.170ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.142ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.019ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.878ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.718ms
+			PostProcessor.OnPostprocessAllAssets 0.706ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.658ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.656ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.646ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.628ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.601ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.543ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.503ms
+			AssetEvents.OnPostprocessAllAssets 0.409ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.392ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.388ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.336ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.320ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.311ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.296ms
+			SyncVS.PostprocessSyncProject 0.249ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.206ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.158ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.204ms
+	PersistCurrentRevisions: 0.132ms
+	GenerateScriptTypeHashes: 8.756ms
+	GenerateScriptTypeSerializationHashes: 15.794ms
+	Untracked: 2321.775ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=fbb3250b347c7784f93767580ea573f4): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u21BB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2196 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u229E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u260D was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2750 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2332 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2601 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2699 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u25A2 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
+UnityEngine.Canvas:SendWillRenderCanvases ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
+
+Asset Pipeline Refresh (id=7f928a77b91ce2644ab8c59e65561e6c): Total: 0.008 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Asset Pipeline Refresh (id=66c83ff2e6389084c9403426c0ae0269): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4d29af5b82cface469c4f00607cdf295): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.224 ms
+	Integration:            256.928 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   262.177 ms
+Unloading 45 unused Assets / (0.6 MB). Loaded Objects now: 6840.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 45.122300 ms (FindLiveObjects: 0.699700 ms CreateObjectMapping: 0.168300 ms MarkObjects: 34.411700 ms  DeleteObjects: 9.498900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: 'cc4a10a078f0ef35344ae39ea83bf666') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=15c8c079d336d28f621b2cb41a27d1c5 DependenciesID=40e3973714a378980fba98d3165d0bf9 StaticDependenciesID=e58374a99de3e07cfb8abf9077610def 
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=6643d07c07d52034a999c5996f32001a): Total: 0.532 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=337 ms
+		Asset DB Callback time: managed=61 ms, native=129 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1086, non-scripts=2122
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 6
+	ApplyChangesToAssetFolders: 0.144ms
+	Scan: 259.511ms
+	Collect global state as custom dependencies: 0.515ms
+	OnSourceAssetsModified: 1.146ms
+	ProcessAssetsWithTransientArtifactChanges: 0.061ms
+	CategorizeAssets: 33.214ms
+	ImportOutOfDateAssets: 42.137ms (0.307ms without children)
+		ImportManagerImport: 39.853ms (7.604ms without children)
+			UpdateCategorizedAssets: 0.091ms
+		ReloadNativeAssets: 0.075ms
+		UnloadImportedAssets: 0.293ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.854ms
+		ImportSchedulerStart: 0.730ms
+	PostProcessAllAssets: 185.249ms
+		XRBuildSystem.XRAssetImported 123.800ms
+		MonoPostProcessAllAssets: 60.474ms
+			AssetChangedListener.OnPostprocessAllAssets 12.280ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.594ms
+			AssetPostprocessor.OnPostprocessAllAssets 11.101ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.595ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 3.356ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.714ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.569ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.296ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.218ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.140ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.955ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.915ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.789ms
+			PostProcessor.OnPostprocessAllAssets 0.730ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.677ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.634ms
+			AssetEvents.OnPostprocessAllAssets 0.630ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.615ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.438ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.362ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.315ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.276ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.177ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.153ms
+			SyncVS.PostprocessSyncProject 0.063ms
+	PostAssetChangesProfiler: 4.225ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.176ms
+	PersistCurrentRevisions: 0.323ms
+	UnloadStreamsEnd: 0.066ms
+	Untracked: 4.678ms
+
+Importing 'GUID: bb0f3ebbe4735da458f66d044dcba20b - Path: Assets/Scenes/CICT_NetTwin_Final.unity' with importer (DefaultImporter)
+Imported 'GUID: bb0f3ebbe4735da458f66d044dcba20b' -> (Import Result ID: '36cfe2edf48089ac8b2748336d66be52') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=d05f8290b27c1f0a2b95faa22eb1b6bd DependenciesID=2952b2a5dd1fe51481448390a171b404 StaticDependenciesID=c6070315ee76d1d4679af3eabb771586 
+Asset Pipeline Refresh (id=f97d5d9f08606cb4ebbc25ddb9888ae8): Total: 0.082 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 30650; Successful remaps: 14408
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout E:\UNITY\PROJECT\CICT-NetTwin 3D\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ACER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Clearing [LiberationSans SDF - Fallback] dynamic font asset data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TMPro.EditorEventCallbacks/<>c:<InitializeFontAssetResourceChangeCallBacks>b__0_0 () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Editor/TMP/TMP_EditorResourceManager.cs:36)
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
+
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '632ff03ccef77c9d91eec1e76bcf57f7') in 0.020 seconds [static dependencies only]. Details - ImportResultOutputID=15c8c079d336d28f621b2cb41a27d1c5 DependenciesID=9e1712e1a89c24953b2e2522391c8636 StaticDependenciesID=f4b9ea77a87a231e44986e0077d3f57a 
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Asset Pipeline Refresh (id=eb469c97e37298445a2b2f0774702f32): Total: 0.129 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-ACER-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ACER channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000010654, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000010E4C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000010654, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000010E4C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4900
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793023442515,"processId":62076,"allocatedMemory":17469094,"memoryLabels":[{"Default":202719},{"Permanent":15516},{"NewDelete":78677},{"Thread":4210760},{"Manager":820192},{"VertexData":8},{"Geometry":824},{"Shader":860376},{"Material":132},{"TextureCache":304},{"GfxDevice":74808},{"GfxThread":15360},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":163480},{"Input":45280},{"JobScheduler":256},{"TextLib":23005},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1461728},{"BaseObject":48976},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":37103},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":902768},{"StaticString":3808},{"Utility":2674426},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":279446},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":8467},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":190},{"EditorUtility":420964},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4517983},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3598},{"Windowing":456},{"Licensing":12804},{"AssetReference":32},{"IPCStream":32}]}

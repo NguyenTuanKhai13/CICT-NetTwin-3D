@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/CICT_NetTwin_Final.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
