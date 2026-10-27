@@ -1,35 +1,35 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 62860)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 23732)
-VBCSCompiler prewarm took 199.13 ms
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 81516)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 81540)
+VBCSCompiler prewarm took 258.85 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER" at "2026-10-26T13:33:39.3768341Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER" at "2026-10-27T05:27:00.19465Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15676 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-26T13:33:39Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4420, path: "E:/UNITY/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-10-27T05:27:00Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 80728, path: "E:/UNITY/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              46124f0f05704cfb9e9866f53aeefa10
-  Correlation Id:          d2efd1a2aba385c0c85f39b9676c9060
-  External correlation Id: 3882415715885325042
+  Session Id:              fcfc047d44924f789f90ec39fc738921
+  Correlation Id:          1e91b729d2ff8916fc95600119292ed8
+  External correlation Id: 8338552280732280198
   Machine Id:              rRzFtIhDwl4z6pcIDC+mwjvL6AE=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ACER" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER-notifications" at "2026-10-26T13:33:39.4750983Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ACER" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ACER-notifications" at "2026-10-27T05:27:00.2483621Z"
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token 1u4337S3Cm...
+[Licensing::Module] Successfully updated the access token edI5aryGcv...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968518398191-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 0.12s
+[Licensing::Module] Licensing Background thread has ended after 0.09s
 
 COMMAND LINE ARGUMENTS:
 E:\UNITY\6000.6.7f1\Editor\Unity.exe
@@ -43,9 +43,9 @@ production
 -licensingIpc
 LicenseClient-ACER
 -hubSessionId
-18deb74c-85dd-4e82-9f90-4c3a6ab16b43
+c8cc441d-d763-4f43-b57a-f1b681564ceb
 -accessToken
-1u4337S3CmhfRO9nm3bh5cUkGPghl7X77a2nwlvnm08011f
+edI5aryGcvh5qTWXNbX1AK3Q92a_kNXYoKcAHXZLE8Q011f
 Successfully changed project path to: E:\UNITY\PROJECT\CICT-NetTwin 3D
 E:/UNITY/PROJECT/CICT-NetTwin 3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -85,16 +85,16 @@ E:/UNITY/PROJECT/CICT-NetTwin 3D
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [62892]  Target information:
+Player connection [81364]  Target information:
 
-Player connection [62892]  * "[IP] 10.10.9.208 [Port] 55504 [Flags] 2 [Guid] 3636384678 [EditorId] 3636384678 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NP720R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [81364]  * "[IP] 10.25.104.101 [Port] 55504 [Flags] 2 [Guid] 1844369313 [EditorId] 1844369313 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NP720R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [62892] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [62892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [81364] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [81364] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-37644" after 0.1 seconds.
+[Package Manager] Connected to IPC stream "Upm-81360" after 0.0 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 Initialising UDS system complete:
@@ -138,7 +138,7 @@ Mono path[0] = 'E:/UNITY/6000.6.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UNITY/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'E:/UNITY/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UNITY/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -146,32 +146,30 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UNITY/6000.6.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/UNITY/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003646 seconds.
+Registered in 1.090465 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.592 seconds
-Domain Reload Profiling: 2674ms
-	BeginReloadAssembly (242ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (9ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (116ms)
-	LoadAllAssembliesAndSetupDomain (677ms)
-		LoadAssemblies (228ms)
-		TypeCache.Refresh (465ms)
-			TypeCache.ScanAssembly (434ms)
+- Finished resetting the current domain, in  2.915 seconds
+Domain Reload Profiling: 9166ms
+	BeginReloadAssembly (439ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (379ms)
+	initialDomainReloadingComplete (1478ms)
+	LoadAllAssembliesAndSetupDomain (3948ms)
+		LoadAssemblies (447ms)
+		TypeCache.Refresh (3782ms)
+			TypeCache.ScanAssembly (3183ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (1596ms)
+	FinalizeReload (2917ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (230ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (588ms)
-			EditorAssembliesLoaded (7ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (1115ms)
+			EditorAssembliesLoaded (4ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -236,117 +234,115 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.ext.nunit@2.1.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
     com.unity.test-framework.performance@6.6.0 (location: E:\UNITY\PROJECT\CICT-NetTwin 3D\Library\PackageCache\com.unity.test-framework.performance@e8b39e3ef3d9)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.06 seconds
+[Package Manager] Done registering packages in 0.05 seconds
 Starting: E:\UNITY\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: E:/UNITY/PROJECT/CICT-NetTwin 3D
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "E:\UNITY\6000.6.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "E:\UNITY\6000.6.7f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "E:\UNITY\6000.6.7f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "E:\UNITY\6000.6.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 0s922ms
-[632/801    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.74 seconds), 1 items updated, 801 evaluated
-AssetDatabase: script compilation time: 6.464522s
+ExitCode: 0 Duration: 1s393ms
+[632/801    1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.17 seconds), 1 items updated, 801 evaluated
+AssetDatabase: script compilation time: 10.407373s
 Begin MonoManager ReloadAssembly
 Total cache size 49444620
-Total cache size after purge 49444620, took 00:00:00.1587397
+Total cache size after purge 49444620, took 00:00:00.1676156
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  2.396 seconds
-Domain Reload Profiling: 4287ms
-	BeginReloadAssembly (525ms)
-		DisableScriptedObjects (57ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (1201ms)
-		LoadAssemblies (616ms)
-		TypeCache.Refresh (263ms)
-			TypeCache.ScanAssembly (241ms)
-		AnalyzeDomain (169ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2399ms)
+- Finished resetting the current domain, in  3.228 seconds
+Domain Reload Profiling: 6173ms
+	BeginReloadAssembly (360ms)
+		DisableScriptedObjects (96ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (2488ms)
+		LoadAssemblies (2198ms)
+		TypeCache.Refresh (155ms)
+			TypeCache.ScanAssembly (142ms)
+		AnalyzeDomain (69ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3229ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (10ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (297ms)
-			ProcessInitializeOnLoadAttributes (739ms)
-			ProcessInitializeOnLoadMethodAttributes (201ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (60ms)
+			LogAssemblyErrors (31ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (687ms)
+			ProcessInitializeOnLoadAttributes (1380ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (319ms)
 Starting new worker id: 0 with log in E:/UNITY/PROJECT/CICT-NetTwin 3D/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=d68fa09dded93a641b38037353b1d6d4): Total: 11.988 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=744f79a6b1b187f45b0efc44bd3a6995): Total: 20.718 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=3329 ms
-		Asset DB Callback time: managed=81 ms, native=71 ms
-		Scripting: domain reloads=1, domain reload time=1960 ms, compile time=6468 ms, other=76 ms
+		Asset DB Process Time: managed=0 ms, native=7157 ms
+		Asset DB Callback time: managed=43 ms, native=66 ms
+		Scripting: domain reloads=1, domain reload time=2993 ms, compile time=10410 ms, other=47 ms
 		Project Asset Count: scripts=1086, non-scripts=2122
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 74.110ms
-	ApplyChangesToAssetFolders: 1.370ms
-	Scan: 199.698ms
-	Collect global state as custom dependencies: 45.531ms
-	CategorizeScriptCompilationAssets: 63.248ms
-	ProcessAssetsWithTransientArtifactChanges: 117.190ms
-	CategorizeAssets: 125.038ms
-	CompileScripts: 6468.190ms
-	ImportOutOfDateAssets: 2441.536ms (2415.603ms without children)
-		ReloadNativeAssets: 0.068ms
-		UnloadImportedAssets: 3.895ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.228ms
-		ImportSchedulerStart: 20.747ms
-	PostProcessAllAssets: 81.537ms
-		MonoPostProcessAllAssets: 81.415ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 36.528ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.001ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.478ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 2.493ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.647ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.526ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.891ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.630ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.550ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.458ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.355ms
-			SyncVS.PostprocessSyncProject 0.297ms
-	UnloadStreamsBegin: 3.167ms
-	PersistCurrentRevisions: 0.171ms
-	GenerateScriptTypeHashes: 4.032ms
-	GenerateScriptTypeSerializationHashes: 8.063ms
-	Untracked: 2317.295ms
+	InvokePackagesCallback: 67.995ms
+	ApplyChangesToAssetFolders: 1.329ms
+	Scan: 214.410ms
+	Collect global state as custom dependencies: 38.675ms
+	CategorizeScriptCompilationAssets: 2485.012ms
+	ProcessAssetsWithTransientArtifactChanges: 83.249ms
+	CategorizeAssets: 63.999ms
+	CompileScripts: 10409.822ms
+	ImportOutOfDateAssets: 3336.212ms (3315.584ms without children)
+		ReloadNativeAssets: 0.064ms
+		UnloadImportedAssets: 2.294ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.844ms
+		ImportSchedulerStart: 17.422ms
+	PostProcessAllAssets: 43.991ms
+		MonoPostProcessAllAssets: 43.885ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.872ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.101ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.131ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.335ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.983ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.704ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.417ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.323ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.288ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.253ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.199ms
+			SyncVS.PostprocessSyncProject 0.128ms
+	UnloadStreamsBegin: 3.108ms
+	PersistCurrentRevisions: 0.101ms
+	GenerateScriptTypeHashes: 2.037ms
+	GenerateScriptTypeSerializationHashes: 4.256ms
+	Untracked: 3922.474ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Scanning for USB devices : 7.593ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 3.848ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-CICT-NetTwin 3D
 Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/CICT_NetTwin_Final.unity'
-	Deserialize:            4.789 ms
-	Integration:            21.926 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.068 ms
-	Total Operation Time:   26.785 ms
-Unloading 4673 unused Assets / (12.4 MB). Loaded Objects now: 5633.
-Memory consumption went from 386.7 MB to 374.4 MB.
-Total: 20.912100 ms (FindLiveObjects: 0.644000 ms CreateObjectMapping: 0.343500 ms MarkObjects: 12.359800 ms  DeleteObjects: 7.232700 ms)
+	Deserialize:            12.305 ms
+	Integration:            14.218 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   26.565 ms
+Unloading 4673 unused Assets / (11.1 MB). Loaded Objects now: 5632.
+Memory consumption went from 387.7 MB to 376.6 MB.
+Total: 12.381100 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.204200 ms MarkObjects: 7.234500 ms  DeleteObjects: 4.279800 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-Curl error 35: Recv failure: Connection was reset
 Worker ready: AssetImportWorkerHW0 0
 [LAYOUT] About to save layout E:\UNITY\PROJECT\CICT-NetTwin 3D\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/ACER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
@@ -356,38 +352,102 @@ This project uses Input Manager, which is marked for deprecation. To manage inpu
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-[Project] Loading completed in 31.243 seconds
-	Project init time: 				24.231 seconds
+[Project] Loading completed in 54.307 seconds
+	Project init time: 				51.771 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.148 seconds
-		Asset Database init time: 		0.800 seconds
-		Global illumination init time: 	0.024 seconds
-		Assemblies load time: 			2.747 seconds
-		Unity extensions init time: 	0.054 seconds
-		Asset Database refresh time: 	11.988 seconds
-	Scene opening time: 			6.233 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793021650405,"processId":37644,"projectLoad":31.2434973,"projectInit":24.2314952,"templateInit":0.0,"packageManagerInit":0.1477176,"assetDatabaseInit":0.7999717,"globalIlluminationInit":0.0243139,"assembliesLoad":2.7471713,"unityExtensionsInit":0.0535592,"assetDatabaseRefresh":11.9878479,"sceneOpening":6.2330885}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793021650405,"processId":37644,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=cc1b221497a0b074d8a628f5d33e8334): Total: 0.134 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Start Indexing on Editor startup
-[Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/ACER/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.031s, timestamps: [31.433 - 31.463]
-[Licensing::Client] Successfully resolved entitlement details
+		Package Manager init time: 		0.004 seconds
+		Asset Database init time: 		0.724 seconds
+		Global illumination init time: 	0.039 seconds
+		Assemblies load time: 			21.514 seconds
+		Unity extensions init time: 	0.028 seconds
+		Asset Database refresh time: 	20.718 seconds
+	Scene opening time: 			1.863 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793078874220,"processId":81360,"projectLoad":54.307276699999996,"projectInit":51.7709236,"templateInit":0.0,"packageManagerInit":0.0043134,"assetDatabaseInit":0.7238928,"globalIlluminationInit":0.0393406,"assembliesLoad":21.5141214,"unityExtensionsInit":0.0276206,"assetDatabaseRefresh":20.7182495,"sceneOpening":1.8634557}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793078874220,"processId":81360,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "1u4337S3"... (expires: 2026-10-26T15:07:34Z)
+[Licensing::Module] Successfully updated access token: "edI5aryG"... (expires: 2026-10-27T07:26:28Z)
+Created GICache directory at C:/Users/ACER/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.038s, timestamps: [56.098 - 56.136]
+[Licensing::Client] Successfully resolved entitlement details
 UPID Received '6deb60aa-40b1-4e22-953a-17db6fcbde8b'.
 [Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=859bb6f9df3fb5b4c8808e46d6902888): Total: 0.087 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.542 ms
+	Integration:            55.469 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   56.026 ms
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.492 ms
+	Integration:            15.117 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   15.624 ms
+Unloading 78 unused Assets / (16.8 MB). Loaded Objects now: 6657.
+Memory consumption went from 0.55 GB to 0.53 GB.
+Total: 18.705000 ms (FindLiveObjects: 0.486300 ms CreateObjectMapping: 0.121400 ms MarkObjects: 14.123300 ms  DeleteObjects: 3.780700 ms)
+
+Starting new worker id: 1 with log in E:/UNITY/PROJECT/CICT-NetTwin 3D/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8a43fdab89792296a13bc0b31dfb4e5') in 0.241745 seconds
+[Worker0] Imported GUID: 198d58a092a758248ba67c413e090f2a - Path: Assets/Scripts/CICTNetTwinMaster.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b3dc26110558b6763b2f7c45f9eeec96') in 0.0186889 seconds
+[Worker0] Imported GUID: bb0f3ebbe4735da458f66d044dcba20b - Path: Assets/Scenes/CICT_NetTwin_Final.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41ff92a2d94b717777f6530935bbbff7') in 0.0144033 seconds
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.440 ms
+	Integration:            20.162 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   20.627 ms
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.396 ms
+	Integration:            18.011 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   18.438 ms
+Unloading 21 unused Assets / (250.9 KB). Loaded Objects now: 6657.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 17.051700 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.113600 ms MarkObjects: 16.056100 ms  DeleteObjects: 0.182800 ms)
+
+Worker ready: AssetImportWorkerHW1 1
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.343 ms
+	Integration:            20.052 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   20.415 ms
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.236 ms
+	Integration:            15.444 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   15.703 ms
+Unloading 21 unused Assets / (425.9 KB). Loaded Objects now: 6765.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 15.774300 ms (FindLiveObjects: 0.558600 ms CreateObjectMapping: 0.158200 ms MarkObjects: 14.706500 ms  DeleteObjects: 0.157800 ms)
+
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 TrimDiskCacheJob: Current cache size 0mb
 Entering Playmode with Reload Domain disabled.
 If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.140 ms
-	Integration:            98.494 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.035 ms
-	Total Operation Time:   99.673 ms
-Curl error 35: Recv failure: Connection was reset
+	Deserialize:            0.381 ms
+	Integration:            20.547 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   20.951 ms
 The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -612,30 +672,38 @@ UnityEngine.Canvas:SendWillRenderCanvases ()
 
 (Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
 
-Asset Pipeline Refresh (id=fa3101148c6ddf24794a15a919c99b11): Total: 0.027 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=ace5e62780762c4468e7b594679ed4e1): Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.816 ms
-	Integration:            118.845 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.040 ms
-	Total Operation Time:   119.703 ms
-Unloading 78 unused Assets / (17.0 MB). Loaded Objects now: 6673.
-Memory consumption went from 0.57 GB to 0.56 GB.
-Total: 46.285800 ms (FindLiveObjects: 0.849000 ms CreateObjectMapping: 0.467900 ms MarkObjects: 31.414400 ms  DeleteObjects: 13.166100 ms)
+	Deserialize:            0.264 ms
+	Integration:            18.555 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   18.841 ms
+Unloading 29 unused Assets / (0.6 MB). Loaded Objects now: 6931.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 16.009300 ms (FindLiveObjects: 0.632900 ms CreateObjectMapping: 0.138500 ms MarkObjects: 14.825000 ms  DeleteObjects: 0.217700 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=c2972460d76318d4ba6db9c89bde7399): Total: 0.015 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=e7f85208edb3f094abcbc230d42dc63d): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '4c4863529adc9ac14970731e8a5da60e') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=e27b047e3559935d81d11e8d5dd7411e StaticDependenciesID=a4661aca7a2be7b6d5e28438e344ffeb 
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: 'cc4a10a078f0ef35344ae39ea83bf666') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=15c8c079d336d28f621b2cb41a27d1c5 DependenciesID=40e3973714a378980fba98d3165d0bf9 StaticDependenciesID=e58374a99de3e07cfb8abf9077610def 
+Asset Pipeline Refresh (id=b3949423815ce9c46be5f74b5b6dd332): Total: 0.115 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: bb0f3ebbe4735da458f66d044dcba20b - Path: Assets/Scenes/CICT_NetTwin_Final.unity' with importer (DefaultImporter)
+Imported 'GUID: bb0f3ebbe4735da458f66d044dcba20b' -> (Import Result ID: '7d46ae8eec1a5c21e5f4ace33e06de58') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=d05f8290b27c1f0a2b95faa22eb1b6bd DependenciesID=a52b11a73a79804e5565004268e97d1f StaticDependenciesID=31adf0e3f8e5c08054ba770d2bc6dce4 
+Asset Pipeline Refresh (id=079a02ab533eba34bad669ea72229959): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: c5c52b963d5a85c42a7042044639e790 - Path: Assets/NodePrefab.prefab - Importer: PreviewImporter -> (ImportResultId: '8db0a033b9350951f9d644f82d1af055') in 0.6615405 seconds
+[Worker1] Imported GUID: 531612b291d0d8046bd7addcf489c482 - Path: Assets/NodePrefab 1.prefab - Importer: PreviewImporter -> (ImportResultId: 'b6d99fd49c2ff325974d0031705d5a0e') in 0.6959913 seconds
+[Worker0] Imported GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '12c47188cbeda8faf9893a1da606d299') in 0.0281052 seconds
+[Worker1] Imported GUID: bb0f3ebbe4735da458f66d044dcba20b - Path: Assets/Scenes/CICT_NetTwin_Final.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b2f79ee187be6c512b355af4688772b1') in 0.0878854 seconds
 Entering Playmode with Reload Domain disabled.
 If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.381 ms
-	Integration:            24.107 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.028 ms
-	Total Operation Time:   24.518 ms
+	Deserialize:            0.309 ms
+	Integration:            21.092 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   21.427 ms
 The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -860,253 +928,36 @@ UnityEngine.Canvas:SendWillRenderCanvases ()
 
 (Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
 
-Curl error 35: Recv failure: Connection was reset
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.377 ms
-	Integration:            27.805 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.022 ms
-	Total Operation Time:   28.206 ms
-Unloading 21 unused Assets / (349.9 KB). Loaded Objects now: 6675.
-Memory consumption went from 0.56 GB to 0.56 GB.
-Total: 24.057200 ms (FindLiveObjects: 0.773400 ms CreateObjectMapping: 0.208800 ms MarkObjects: 22.562500 ms  DeleteObjects: 0.188000 ms)
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+UnassignedReferenceException: The variable m_TextViewport of TMP_InputField has not been assigned.
+You probably need to assign the m_TextViewport variable of the TMP_InputField script in the inspector.
+  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x000b4] in <2a0aacfdb6844320ae79174c32157248>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x0000a] in <2a0aacfdb6844320ae79174c32157248>:0 
+  at UnityEngine.Transform.get_rotation () [0x00006] in <2a0aacfdb6844320ae79174c32157248>:0 
+  at UnityEngine.RectTransformUtility.ScreenPointToWorldPointInRectangle (UnityEngine.RectTransform rect, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam, UnityEngine.Vector3& worldPoint) [0x00018] in <9a15db796d814f08b2b47309b1cedeec>:0 
+  at UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle (UnityEngine.RectTransform rect, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam, UnityEngine.Vector2& localPoint) [0x0000b] in <9a15db796d814f08b2b47309b1cedeec>:0 
+  at TMPro.TMP_InputField+<MouseDragOutsideRect>d__314.MoveNext () [0x00026] in .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\TMP\TMP_InputField.cs:1951 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00023] in <2a0aacfdb6844320ae79174c32157248>:0 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+TMPro.TMP_InputField:OnDrag(PointerEventData) (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\TMP\TMP_InputField.cs:1935)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IDragHandler, BaseEventData) (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\ExecuteEvents.cs:78)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\ExecuteEvents.cs:272)
+UnityEngine.EventSystems.PointerInputModule:ProcessDrag(PointerEventData) (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\InputModules\PointerInputModule.cs:399)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\InputModules\StandaloneInputModule.cs:579)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\InputModules\StandaloneInputModule.cs:557)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\InputModules\StandaloneInputModule.cs:305)
+UnityEngine.EventSystems.EventSystem:Update() (at .\Library\PackageCache\com.unity.ugui@eb824e41fbc7\Runtime\UGUI\EventSystem\EventSystem.cs:527)
 
-Entering Playmode with Reload Domain disabled.
-If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            0.407 ms
-	Integration:            25.242 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.020 ms
-	Total Operation Time:   25.671 ms
-Curl error 35: Recv failure: Connection was reset
-The character with Unicode value \u25B6 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
+(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_InputField.cs Line: 1951)
 
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u21BB was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2196 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u229E was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u260D was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2750 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2332 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2601 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2699 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u25A2 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-The character with Unicode value \u2715 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [TMP].
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/TextProcessingElement[]) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:1980)
-TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TMP_Text.cs:2157)
-TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:2470)
-TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs:226)
-UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate () (at ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/UGUI/UI/Core/CanvasUpdateRegistry.cs:226)
-UnityEngine.Canvas:SendWillRenderCanvases ()
-
-(Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Runtime/TMP/TextMeshProUGUI.cs Line: 1980)
-
-MonoPathRemapper: Attempts to remap: 26181; Successful remaps: 14406
-Serialized file version minimum: 23, current 23
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+MonoPathRemapper: Attempts to remap: 26796; Successful remaps: 14630
+Serialized file version minimum: 22, current 23
 [LAYOUT] About to save layout E:\UNITY\PROJECT\CICT-NetTwin 3D\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/ACER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 Clearing [LiberationSans SDF - Fallback] dynamic font asset data.
@@ -1122,8 +973,8 @@ UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
 (Filename: ./Library/PackageCache/com.unity.ugui@eb824e41fbc7/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
 
 Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
-Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '632ff03ccef77c9d91eec1e76bcf57f7') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=15c8c079d336d28f621b2cb41a27d1c5 DependenciesID=9e1712e1a89c24953b2e2522391c8636 StaticDependenciesID=f4b9ea77a87a231e44986e0077d3f57a 
-Asset Pipeline Refresh (id=5a81d2f65f9766844a948278048c6fcc): Total: 0.125 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '632ff03ccef77c9d91eec1e76bcf57f7') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=15c8c079d336d28f621b2cb41a27d1c5 DependenciesID=9e1712e1a89c24953b2e2522391c8636 StaticDependenciesID=f4b9ea77a87a231e44986e0077d3f57a 
+Asset Pipeline Refresh (id=3b75a46d4417d654283d134ed98af158): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
@@ -1140,17 +991,21 @@ Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 000000000000EA60, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000013EB8, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000F498, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000013EBC, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000EA60, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000000EB64, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000F498, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000013EB8, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 4948
+abort_threads: Failed aborting id: 0000000000013EBC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000EB64, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4868
 VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793021929819,"processId":37644,"allocatedMemory":16637836,"memoryLabels":[{"Default":201625},{"Permanent":15516},{"NewDelete":71853},{"Thread":4210760},{"Manager":820192},{"VertexData":8},{"Geometry":824},{"Shader":860376},{"Material":132},{"TextureCache":304},{"GfxDevice":64056},{"GfxThread":15360},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":160904},{"Input":45280},{"JobScheduler":256},{"TextLib":24164},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":48912},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":28196},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":570596},{"StaticString":3808},{"Utility":2674426},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7440},{"WebRequest":8872},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":234},{"EditorUtility":408836},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4517903},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3598},{"Windowing":456},{"Licensing":12804},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793079014649,"processId":81360,"allocatedMemory":16921935,"memoryLabels":[{"Default":207105},{"Permanent":15516},{"NewDelete":77041},{"Thread":4209952},{"Manager":820192},{"VertexData":8},{"Geometry":824},{"Shader":860504},{"Material":132},{"TextureCache":608},{"GfxDevice":65400},{"GfxThread":13056},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":200696},{"Input":45280},{"JobScheduler":256},{"TextLib":24164},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":48912},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":37103},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":538111},{"StaticString":3808},{"Utility":2674426},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7152},{"WebRequest":592},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":267619},{"EditorUtility":409860},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4518071},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3598},{"Windowing":456},{"Licensing":12804},{"AssetReference":32},{"IPCStream":32}]}
